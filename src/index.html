@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Monblan Project Gallery</title>
+
+    <meta name="description"
+        content="Monblan Project gallery with posts, statistics, date filtering and grid or list view.">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <!-- fav -->
+    <link rel="icon" href="img/fav.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="bg-top"> <img src="img/left-bg.svg" alt="shape"></div>
+        <div class="bg-bottom"> <img src="img/right-bg.svg" alt="shape"></div>
+        <!-- Header -->
+        @@include('./html/_header.html')
+
+        <!-- Main Page -->
+        <main class="main">
+
+            <!-- Gallery -->
+            @@include('./html/_gallery.html')
+
+        </main>
+
+        <!-- Footer -->
+        <!-- @@include('./html/_footer.html') -->
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="./js/scripts.min.js"></script>
+</body>
+
+
+</html>
